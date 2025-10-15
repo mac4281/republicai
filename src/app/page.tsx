@@ -141,6 +141,27 @@ export default function Home() {
                 </a>
               </div>
             </div>
+            <div className="border-2 border-white p-8 md:p-12 hover:bg-white hover:text-black transition-all duration-300">
+              <div className="flex items-start justify-between flex-col md:flex-row gap-4">
+                <div className="flex-1">
+                  <h3 className="text-4xl md:text-5xl mb-4">
+                    OpenSora.fun
+                  </h3>
+                  <p className="text-sm mb-4 text-gray-400 font-medium">Website</p>
+                  <p className="text-lg leading-relaxed">
+                    BYOK - (Bring Your Own Key) Sora video generator
+                  </p>
+                </div>
+                <a
+                  href="https://www.opensora.fun/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="px-8 py-4 border-2 border-white text-base font-semibold hover:bg-black hover:text-white transition-colors whitespace-nowrap uppercase tracking-wide"
+                >
+                  VISIT SITE →
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
