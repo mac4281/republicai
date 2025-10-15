@@ -10,7 +10,7 @@ export default function AdRadarPage() {
 
   return (
     <div className="min-h-screen bg-white text-black flex items-center justify-center">
-      <div className="text-2xl font-bold">Redirecting to AdRadar...</div>
+      <div className="text-2xl font-bold">Redirecting to AdRadar.....</div>
     </div>
   );
 }
