@@ -88,12 +88,14 @@ export default function Home() {
                   >
                     ADD TO CHROME →
                   </a>
-                  <Link
-                    href="/AdRadar"
+                  <a
+                    href="https://www.adradar.net/"
+                    target="_blank"
+                    rel="noopener noreferrer"
                     className="px-8 py-4 border-2 border-white text-base font-semibold hover:bg-black hover:text-white transition-colors whitespace-nowrap uppercase tracking-wide text-center"
                   >
                     MANAGE ACCOUNT →
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
