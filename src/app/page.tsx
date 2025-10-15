@@ -79,14 +79,22 @@ export default function Home() {
                     Let's you see the ads and social media content any website is running/posting
                   </p>
                 </div>
-                <a
-                  href="https://chrome.google.com/webstore"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="px-8 py-4 border-2 border-white text-base font-semibold hover:bg-black hover:text-white transition-colors whitespace-nowrap uppercase tracking-wide"
-                >
-                  ADD TO CHROME →
-                </a>
+                <div className="flex flex-col gap-3">
+                  <a
+                    href="https://chromewebstore.google.com/detail/adradar/igmdeikcmjcihljfmdobjnbfaedcamjc?hl=en-US&utm_source=ext_sidebar"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="px-8 py-4 border-2 border-white text-base font-semibold hover:bg-black hover:text-white transition-colors whitespace-nowrap uppercase tracking-wide"
+                  >
+                    ADD TO CHROME →
+                  </a>
+                  <Link
+                    href="/AdRadar"
+                    className="px-8 py-4 border-2 border-white text-base font-semibold hover:bg-black hover:text-white transition-colors whitespace-nowrap uppercase tracking-wide text-center"
+                  >
+                    MANAGE ACCOUNT →
+                  </Link>
+                </div>
               </div>
             </div>
             <div className="border-2 border-white p-8 md:p-12 hover:bg-white hover:text-black transition-all duration-300">
